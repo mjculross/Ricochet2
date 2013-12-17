@@ -1,486 +1,258 @@
 {
-  "uuid": "261d6762-fea5-4265-8e8f-caa7516d1bb7",
-  "shortName": "Ricochet2",
-  "longName": "Ricochet2",
-  "companyName": "KD5RXT",
-  "versionCode": 2,
-  "versionLabel": "2.0.0",
-  "watchapp": 
-  {
-    "watchface": false
-  },
-
-  "appKeys": 
-  {
-    "dummy": 0
-  },
-
-  "resources": 
-  {
-    "media": 
-    [
-      {
-        "type": "png",
-        "name": "IMAGE_MENU_ICON",
-        "file": "images/menu_icon_Ricochet2.png",
-        "menuIcon": "True"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_BLACK_BACK",
-         "file": "images/back_blk.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_WHITE_BACK",
-         "file": "images/back_wht.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_SPLASH",
-         "file": "images/splash.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_INV_SPLASH",
-         "file": "images/splash_inv.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_COLON",
-         "file": "images/char_colon.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_INV_COLON",
-         "file": "images/char_inv_colon.png"
-      },
-
-      {
-         "type":"png",
-         "name": "IMAGE_AM_MODE",
-         "file": "images/time_format_AM.png"
-      },
-
-      {
-         "type":"png",
-         "name": "IMAGE_INV_AM_MODE",
-         "file": "images/time_format_inv_AM.png"
-      },
-
-      {
-         "type":"png",
-         "name": "IMAGE_PM_MODE",
-         "file": "images/time_format_PM.png"
-      },
-
-      {
-         "type":"png",
-         "name": "IMAGE_INV_PM_MODE",
-         "file": "images/time_format_inv_PM.png"
-      },
-
-      {
-         "type":"png",
-         "name": "IMAGE_BLANK_MODE",
-         "file": "images/time_format_blank.png"
-      },
-
-      {
-         "type":"png",
-         "name": "IMAGE_INV_BLANK_MODE",
-         "file": "images/time_format_inv_blank.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_NUM_0",
-         "file": "images/num_0.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_NUM_INV_0",
-         "file": "images/num_inv_0.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_NUM_1",
-         "file": "images/num_1.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_NUM_INV_1",
-         "file": "images/num_inv_1.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_NUM_2",
-         "file": "images/num_2.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_NUM_INV_2",
-         "file": "images/num_inv_2.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_NUM_3",
-         "file": "images/num_3.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_NUM_INV_3",
-         "file": "images/num_inv_3.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_NUM_4",
-         "file": "images/num_4.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_NUM_INV_4",
-         "file": "images/num_inv_4.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_NUM_5",
-         "file": "images/num_5.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_NUM_INV_5",
-         "file": "images/num_inv_5.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_NUM_6",
-         "file": "images/num_6.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_NUM_INV_6",
-         "file": "images/num_inv_6.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_NUM_7",
-         "file": "images/num_7.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_NUM_INV_7",
-         "file": "images/num_inv_7.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_NUM_8",
-         "file": "images/num_8.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_NUM_INV_8",
-         "file": "images/num_inv_8.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_NUM_9",
-         "file": "images/num_9.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_NUM_INV_9",
-         "file": "images/num_inv_9.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_NUM_BLANK",
-         "file": "images/num_blank.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_NUM_INV_BLANK",
-         "file": "images/num_inv_blank.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DATENUM_0",
-         "file": "images/datenum_0.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DATENUM_INV_0",
-         "file": "images/datenum_inv_0.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DATENUM_1",
-         "file": "images/datenum_1.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DATENUM_INV_1",
-         "file": "images/datenum_inv_1.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DATENUM_2",
-         "file": "images/datenum_2.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DATENUM_INV_2",
-         "file": "images/datenum_inv_2.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DATENUM_3",
-         "file": "images/datenum_3.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DATENUM_INV_3",
-         "file": "images/datenum_inv_3.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DATENUM_4",
-         "file": "images/datenum_4.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DATENUM_INV_4",
-         "file": "images/datenum_inv_4.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DATENUM_5",
-         "file": "images/datenum_5.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DATENUM_INV_5",
-         "file": "images/datenum_inv_5.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DATENUM_6",
-         "file": "images/datenum_6.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DATENUM_INV_6",
-         "file": "images/datenum_inv_6.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DATENUM_7",
-         "file": "images/datenum_7.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DATENUM_INV_7",
-         "file": "images/datenum_inv_7.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DATENUM_8",
-         "file": "images/datenum_8.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DATENUM_INV_8",
-         "file": "images/datenum_inv_8.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DATENUM_9",
-         "file": "images/datenum_9.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DATENUM_INV_9",
-         "file": "images/datenum_inv_9.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DATENUM_SLASH",
-         "file": "images/datenum_slash.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DATENUM_INV_SLASH",
-         "file": "images/datenum_inv_slash.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DATENUM_BLANK",
-         "file": "images/datenum_blank.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DATENUM_INV_BLANK",
-         "file": "images/datenum_inv_blank.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DATENUM_PERCENT",
-         "file": "images/datenum_percent.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DATENUM_INV_PERCENT",
-         "file": "images/datenum_inv_percent.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DATENUM_PLUS",
-         "file": "images/datenum_plus.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DATENUM_INV_PLUS",
-         "file": "images/datenum_inv_plus.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DAY_SUN",
-         "file": "images/day_sun.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DAY_INV_SUN",
-         "file": "images/day_inv_sun.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DAY_MON",
-         "file": "images/day_mon.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DAY_INV_MON",
-         "file": "images/day_inv_mon.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DAY_TUE",
-         "file": "images/day_tue.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DAY_INV_TUE",
-         "file": "images/day_inv_tue.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DAY_WED",
-         "file": "images/day_wed.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DAY_INV_WED",
-         "file": "images/day_inv_wed.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DAY_THU",
-         "file": "images/day_thu.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DAY_INV_THU",
-         "file": "images/day_inv_thu.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DAY_FRI",
-         "file": "images/day_fri.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DAY_INV_FRI",
-         "file": "images/day_inv_fri.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DAY_SAT",
-         "file": "images/day_sat.png"
-      },
-
-      {
-         "type": "png",
-         "name": "IMAGE_DAY_INV_SAT",
-         "file": "images/day_inv_sat.png"
-      }
-    ]
-  }
+   "uuid": "261d6762-fea5-4265-8e8f-caa7516d1bb7",
+   "shortName": "Ricochet2",
+   "longName": "Ricochet2",
+   "companyName": "Pebble Technology & KD5RXT",
+   "versionCode": 2.2,
+   "versionLabel": "2.2.0",
+   "watchapp": 
+   {
+      "watchface": false
+   },
+
+   "appKeys": 
+   {
+      "dummy": 0
+   },
+
+   "resources": 
+   {
+      "media": 
+      [
+         {
+            "type": "png",
+            "name": "IMAGE_MENU_ICON",
+            "file": "images/menu_icon_Ricochet2.png",
+            "menuIcon": "True"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_WHITE_BACK",
+            "file": "images/white.png"
+          },
+
+         {
+            "type": "png",
+            "name": "IMAGE_SPLASH",
+            "file": "images/splash.png"
+          },
+
+         {
+            "type": "png",
+            "name": "IMAGE_COLON",
+            "file": "images/char_colon.png"
+         },
+
+         {
+            "type":"png",
+            "name": "IMAGE_AM_MODE",
+            "file": "images/time_format_AM.png"
+         },
+
+         {
+            "type":"png",
+            "name": "IMAGE_PM_MODE",
+            "file": "images/time_format_PM.png"
+         },
+
+         {
+            "type":"png",
+            "name": "IMAGE_BLANK_MODE",
+            "file": "images/time_format_blank.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_NUM_0",
+            "file": "images/num_0.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_NUM_1",
+            "file": "images/num_1.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_NUM_2",
+            "file": "images/num_2.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_NUM_3",
+            "file": "images/num_3.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_NUM_4",
+            "file": "images/num_4.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_NUM_5",
+            "file": "images/num_5.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_NUM_6",
+            "file": "images/num_6.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_NUM_7",
+            "file": "images/num_7.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_NUM_8",
+            "file": "images/num_8.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_NUM_9",
+            "file": "images/num_9.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_NUM_BLANK",
+            "file": "images/num_blank.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_DATENUM_0",
+            "file": "images/datenum_0.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_DATENUM_1",
+            "file": "images/datenum_1.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_DATENUM_2",
+            "file": "images/datenum_2.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_DATENUM_3",
+            "file": "images/datenum_3.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_DATENUM_4",
+            "file": "images/datenum_4.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_DATENUM_5",
+            "file": "images/datenum_5.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_DATENUM_6",
+            "file": "images/datenum_6.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_DATENUM_7",
+            "file": "images/datenum_7.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_DATENUM_8",
+            "file": "images/datenum_8.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_DATENUM_9",
+            "file": "images/datenum_9.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_DATENUM_SLASH",
+            "file": "images/datenum_slash.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_DATENUM_BLANK",
+            "file": "images/datenum_blank.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_DATENUM_PERCENT",
+            "file": "images/datenum_percent.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_DATENUM_PLUS",
+            "file": "images/datenum_plus.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_DAY_SUN",
+            "file": "images/day_sun.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_DAY_MON",
+            "file": "images/day_mon.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_DAY_TUE",
+            "file": "images/day_tue.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_DAY_WED",
+            "file": "images/day_wed.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_DAY_THU",
+            "file": "images/day_thu.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_DAY_FRI",
+            "file": "images/day_fri.png"
+         },
+
+         {
+            "type": "png",
+            "name": "IMAGE_DAY_SAT",
+            "file": "images/day_sat.png"
+         }
+      ]
+   }
 }

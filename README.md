@@ -11,11 +11,12 @@ NOTE: to allow full use of the buttons, ScrSaver
    as "Settings" on the Pebble), not as a
    watchface . . . it just displays a watchface
 
-Features (v 2.0):
+Features (v 2.2):
 - selectable white-on-black or black-on-white display
 - selectable date-on-top or time-on-top display mode
 - selectable 12/24 hour format time
 - selectable mm/dd/yy or dd/mm/yy format date
+- displays remaining battery percentage
 - preference settings are maintained in persistent storage
 
 Operating instructions:
